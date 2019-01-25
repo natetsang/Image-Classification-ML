@@ -1,4 +1,4 @@
-# Building an image classifier
+# Building an image classifier from scratch
 
 ## Notebooks
 This project is split into 4 notebooks. When running for the first time, the notebooks should be opened and ran in sequential order. After all files have been downloaded, they can be opened and executed individually. 
