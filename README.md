@@ -36,7 +36,7 @@ relatively easy to interpret.
 - In this project, we limited our features to numerical values only. However, it is possible to use a pixel by pixel matrix as a feature, which could be significantly improve the final model. Despite the feature constraints presented in this project, we were still able to achieve almost a 50% accuracy on the validation set by focusing our efforts on transforming the data and optimizing model parameters to increase model accuracy. It would be interesting to see how much we could improve the model accuracy by if we combine our data cleaning and parameter optimization efforts in this project with more powerful features.
 
 This image shows a snapshot of the results from different ML models.
-![Results comparison](summary_results.png)
+![Results comparison](summary_results.PNG)
 
 This image shows the breakdown of categories in the dataset.
-![Distribution of categories in train data](category_dist.png)
+![Distribution of categories in train data](category_dist.PNG)
