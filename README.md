@@ -16,7 +16,8 @@ process. Then, we trained 4 models: Logistic Regression, KNN, SVM and Random For
 each model, we used cross validation to select the best parameters, and a feature selection
 function to select the top 10 features. In the end, we identified Logistic Regression as the best
 model because it has one of the lowest validation errors, a fast computation time and is
-relatively easy to interpret.
+relatively easy to interpret. This was completed with Thor Valentin Olesen and Jasper Kan as part
+of a project in our graduate data science class.
 
 ## Key questions explored
 - How well can I design a image classifier using conventional (i.e. non-neural net) ML models?
