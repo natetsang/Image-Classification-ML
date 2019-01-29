@@ -36,6 +36,7 @@ An implementation of CNN using tensorflow was included in __NB4__ but is very pr
 - bootstrapping
 - cross validation
 - feature engineering
+- OpenCV library
 
 ## Key findings
 - One of the most significant factors that affected model accuracy was the preprocessing of feature values. When normalizing the data, the model performed 10-50% worse compared to models trained on the original data. In contrast, models trained on scaled feature values performed significantly better than the original data.
