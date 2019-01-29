@@ -6,6 +6,8 @@ This project is split into 4 notebooks. When running for the first time, the not
 - __NB2a: Preliminary EDA__
 - __NB2b: Feature selection__
 - __NB3: Modeling__
+- __NB4: CNN (in progress)__
+
 
 ## Summary
 This project consists of a large dataset with images belonging to 20 different categories.
@@ -14,19 +16,23 @@ given 1501 images to train our models, and 716 images to evaluate the model accu
 began by performing exploratory data analyses to give us insights into the feature selection
 process. Then, we trained 4 models: Logistic Regression, KNN, SVM and Random Forest. For
 each model, we used cross validation to select the best parameters, and a feature selection
-function to select the top 10 features. In the end, we identified Logistic Regression as the best
+function to select the top 10 features. In the end, we identified KNN as the best
 model because it has one of the lowest validation errors, a fast computation time and is
 relatively easy to interpret. This was completed with Thor Valentin Olesen and Jasper Kan as part
 of a project in our graduate data science class.
 
+An implementation of CNN using tensorflow was included in __NB4__ but is very preliminary and will be improved soon.
+
 ## Key questions explored
 - How well can I design a image classifier using conventional (i.e. non-neural net) ML models?
+- How do these model compare to convolutional neural nets? (IN PROGRESS)
 
 ## Techniques used
 - logistic regression
 - KNN
 - SVM
 - Random forest
+- convolutional neural net
 - bootstrapping
 - cross validation
 - feature engineering
